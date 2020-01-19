@@ -1,3 +1,40 @@
 :root {
-    --customFont: Whitney;
+    /* Font */
+    --font: Whitney;
+
+
+    /* Blur */
+    --bg-blur: blur(10px); /* Sets the amount of blur you see on background of elements like pop up menus */
+    
+    /* Border Radius */
+    --br: 7px; /* Adjust how round the border is on buttons, elements, containers, etc... */
+
+    /* Element Background */
+    --bg-element: rgba(0,0,0,0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more. */
+    --bg-element-light: rgba(255, 255, 255, 0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more but for light mode */
+
+    /* Covers */
+    --showCovers: 1; /* Set 0 to hide covers | Set 1 to show covers | Covers are backgrounds shown on user's profiles. Each cover is set by the user. These covers can only be seen on some themes including Dream Frame.*/
+
+    /* Emojis */
+    --EmojiSize: 2rem;
+    --EmojiMenuHeight: 300px;
+    
+    /* Icons */
+    --IconColor: white; /* Set the color for Discord icons */
+    
+    /* Home Icon */
+    --HomeIcon: url(https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg); /* Set the icon for the home button. url() must stay in the option. */
+    --HomeIconSize: 17px; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
+    --HomeIconColor: #7289da;
+
+    /* Status Colors */
+    --StatusOnline: yeet;
+    --StatusIdle: yeet;
+    --StatusDND: yeet;
+    --StatusOffline: yeet;
+
+    /* Channel Name Flyout */
+    --ChannelNameFlyOut: 13px; /* When hovering over a channel name, the name goes a little bit right as a small animation. You can adjust how far it goes it here. */
+    
 }
