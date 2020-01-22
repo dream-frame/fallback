@@ -2,6 +2,10 @@
     /* Font */
     --font: Whitney;
 
+   /* Old Scrollbar option */
+    --colorbar: white;
+    --widthbar: 7px;
+
 
     /* Blur */
     --bg-blur: blur(10px); /* Sets the amount of blur you see on background of elements like pop up menus */
@@ -27,14 +31,4 @@
     --HomeIcon: url(https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg); /* Set the icon for the home button. url() must stay in the option. */
     --HomeIconSize: 17px; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
     --HomeIconColor: #7289da;
-
-    /* Status Colors */
-    --StatusOnline: yeet;
-    --StatusIdle: yeet;
-    --StatusDND: yeet;
-    --StatusOffline: yeet;
-
-    /* Channel Name Flyout */
-    --ChannelNameFlyOut: 13px; /* When hovering over a channel name, the name goes a little bit right as a small animation. You can adjust how far it goes it here. */
-    
 }
