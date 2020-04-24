@@ -1,34 +1,60 @@
 :root {
-    /* Font */
+    /** Background **/
+    --custombackground: url(https://cdn.discordapp.com/attachments/456316408465195009/664274459871543296/luca-micheli-ruWkmt3nU58-unsplash.jpg);
+    /* Adjustments */
+    --blur: 0px; 
+    --opacitybg: 0.3; 
+    --opacityDiscord: 0.7;
+    --bgscale: 1; 
+    --bgrotation: 0deg; 
+    --bgrepeat: no-repeat; 
+
+    /** Container Backgrounds **/
+    --containerServer:  transparent;
+    --containerChannels:  transparent;
+    --containerChat:  transparent;
+    --containerMembers:  transparent;
+    --containerSettingsSidebar:  transparent;
+    --containerSettingsRightSide:  transparent;
+    --containerChatHeader:  transparent;
+    --containerFriendsList:  transparent;
+
+    /** Accents **/
+    --accentcolor: #7289da;
+    --accenttext: white;
+    --text-link: #7289da;
+
+    /* Status Colors */
+    --online: #43b581;
+	--idle: #faa61a;
+	--dnd: #f04747;
+	--offline: #636b75;
+	--invisible: #747f8d;
+	--streaming: #9146FF;
+
+    /** Fonts **/
     --font: Whitney;
 
-   /* Old Scrollbar option */
-    --colorbar: white;
-    --widthbar: 7px;
+    /** Scrollbar **/
+    --ScrollbarColor: white;
+    --ScrollbarWidth: 14px;
+    --ScrollbarBorderRadius: 10px;
 
-
+    /** Element Backgrounds(pop ups, menus, tabs, etc...) **/
     /* Blur */
-    --bg-blur: blur(10px); /* Sets the amount of blur you see on background of elements like pop up menus */
-    
-    /* Border Radius */
-    --br: 7px; /* Adjust how round the border is on buttons, elements, containers, etc... */
+    --bg-blur: blur(10px);
+    /* Background */
+    --bg-element: rgba(23,23,23,0.5);
+    --br: 7px ;
 
-    /* Element Background */
-    --bg-element: rgba(0,0,0,0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more. */
-    --bg-element-light: rgba(255, 255, 255, 0.5); /* Change the background on elements like embeds, pop up menus, some modals, channels, context menu, and more but for light mode */
+    /** Covers **/
+    --showCovers: 1;
 
-    /* Covers */
-    --showCovers: 1; /* Set 0 to hide covers | Set 1 to show covers | Covers are backgrounds shown on user's profiles. Each cover is set by the user. These covers can only be seen on some themes including Dream Frame.*/
-
-    /* Emojis */
+    /** Emojis **/
+    /* In Chat */
     --EmojiSize: 2rem;
+    /* Emoji Picker */
     --EmojiMenuHeight: 300px;
-    
-    /* Icons */
-    --IconColor: white; /* Set the color for Discord icons */
-    
-    /* Home Icon */
-    --HomeIcon: url(https://upload.wikimedia.org/wikipedia/commons/1/13/Discord_color_D.svg); /* Set the icon for the home button. url() must stay in the option. */
-    --HomeIconSize: 17px; /* If the size of the icon you set doesn't seem right, you can adjust it here. Use this if you also re-sized the server icons */
-    --HomeIconColor: #7289da;
+    --EmojiMenuWidth: 200px;
+
 }
